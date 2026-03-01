@@ -231,12 +231,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
@@ -271,12 +271,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3 + 2;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3 + 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3 - 2;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3 - 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
@@ -324,12 +324,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
@@ -358,12 +358,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3 + 2;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3 + 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3 - 2;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3 - 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
@@ -411,12 +411,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
@@ -445,12 +445,12 @@ namespace MelonLoader_LastCommand_OstrichSpeaker
                 {
                     if (add == 1)
                     {
-                        int result = (num1 ^ power) + num2 * num3 + 2;
+                        int result = (int)Math.Pow(num1, power) + num2 * num3 + 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "+", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                     else
                     {
-                        int result = (num1 ^ power) - num2 * num3 - 2;
+                        int result = (int)Math.Pow(num1, power) - num2 * num3 - 2;
                         __result = new String[] { "(", num1.ToString(), ")^", power.ToString(), "-", num2.ToString(), "x", num3.ToString(), "=", result.ToString() };
                     }
                 }
